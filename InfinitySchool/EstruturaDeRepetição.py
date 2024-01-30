@@ -17,7 +17,9 @@ print(f"A média aritmética dos números é {media}")
 def mostrarnumeros():
     idx=1
     while idx<=quantidade:
+        print('_________________________')
         print(numeros[idx])
+        print('_________________________')
         idx+=1
 
 print("Deseja ver os números digitados?")
